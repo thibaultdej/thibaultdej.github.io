@@ -1,0 +1,73 @@
+/* Theme */
+
+main {
+	background: #EDEDED;
+	color: #4169E1;
+}
+
+.social a {
+	color: #4169E1;
+}
+
+/* Typography */
+
+html {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: left;
+	padding: 30px 30px;
+	text-align: left;
+}
+
+main > .intro {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	font-variation-settings: 'wdth' 150;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 400;
+	font-variation-settings: 'wdth' 100;
+	padding: 0 2px;
+}
+
+main > .social {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 400;
+	font-variation-settings: 'wdth' 100;
+}
